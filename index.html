@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            AboyLlj's personal data
+        </title>
+    </head>
+    <body background="/picture/photo/eye.jpg">
+        
+        <audio controls preload autoplay loop id="vd">
+            <source src="./music/AboyLlj/infog.mp3" type="audio/mpeg">
+        </audio>
+        <script type="text/javascript">
+            window.onload = function(){
+                     setInterval("toggleSound()",100);
+                }
+        
+            function toggleSound() {
+                        var music = document.getElementById("vd");//获取ID  
+                            
+                        if (music.paused) { //判读是否播放  
+                            music.paused=false;
+                            music.play(); //没有就播放 
+                        }    
+                }
+        </script>
+
+        <h1><b>Basic information:</b></h1>
+        <p>
+            <a href="https://blog.csdn.net/llj987" title="CSDN Blog"><br>
+                <img src="/picture/blog/test.jpg" alt="CSDN Blog" width="70" height="70">
+                <br>This is my CSDN blog<br>
+            </a><br>
+            <del>这里是用于注释</del>
+                <h2>自我介绍</h2>
+                <p>
+                    <strong>My name is '<i><sub>刘</sub><sup>良</sup><sup>锦</sup></i><ins>--Liuliangjin--AboyLlj</ins></strong>
+                    我是一名来自四川大学计算机学院的一名男生,羽毛球是我的首选运动项目
+                    <br>
+                    我来自四川南充,我今年18岁了,有幸来到四川大学继续我的学业生涯<br>
+                    平常喜欢听音乐,认为音乐可以使我放松。<br>    
+                </p><hr>
+                <del style="font-family:arial;color:red;font-size:20px;">后面要设置登录账号与密码可查看,目前暂时还没学到。。。。</del><br>
+                photo:<img src="/picture/photo/myselfjpg.jpg" title="MyPhoto" alt="MyPhotos" width="400" height="544"><br>
+            <i>Student ID<i>:<b>2023*******5</b><br>
+            <i>Email</i>:<b>2041584846@qq.com</b><br>
+            <i>qq</i>:<b>2041584846</b><br>
+            
+            <a href="https://qm.qq.com/cgi-bin/qm/qr?k=JBVuHfDZT86sA-6qOBGLV7q1Plrb0CRj&s=1" title="QQ2041584846">
+                <img src="/picture/blog/head.png" alt="qq2041584846" width="200" height="200"><br>
+                <strong>不妨点击添加我的<i>qq</i>了解更多吧</strong><br>
+            </a>
+            <del>可以先点击下方  lol.png</del><br>
+            <a href="https://dldir1.qq.com/qqfile/qq/PCQQ9.7.1/QQ9.7.1.28940.exe">
+                <img src="/picture/download/download.png" title="download" height="70" width="70">
+                <br>
+            </a>
+            WeChat:l2041584846<br>
+            <hr>
+        </p>
+
+        <h1>MyInformation:</h1>
+            点击MORE跳转至我的照片<br>
+            <del style="font-family:arial;color:red;font-size:20px;">后面要设置登录账号与密码可查看,目前暂时还没学到。。。。</del><br>
+            <a href="/introduction/myself_photo_inroduction.html">
+            <i><strong>MORE</strong></i> <hr>
+            </a>
+            <br>
+        </p>
+
+    </body>
+</html>
